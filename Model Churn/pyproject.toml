@@ -1,0 +1,12 @@
+[project]
+name = "model-churn"
+version = "0.1.0"
+description = "Diretório de Machine Learning. É onde contruimos o modelo, armazenamos os dados e treinamos o modelo."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "mlflow>=2.21.0",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+]
