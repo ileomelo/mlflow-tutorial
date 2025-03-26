@@ -1,0 +1,9 @@
+[project]
+name = "mlflow-server"
+version = "0.1.0"
+description = "Onde vai rodar o executar o camando do MLFlow, e é onde os artefatos serão gerados."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mlflow>=2.21.0",
+]
